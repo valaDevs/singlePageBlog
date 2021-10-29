@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@500&display=swap');
+*{
+    font-family: 'Work Sans', sans-serif;
+}
+body{
+    overflow-x: hidden;
+}
+.uil-search{
+    position: absolute;
+    right: 10px;
+    top: 5px;
+}
+.bg-dark{
+    background-color: rgb(6, 0, 26) !important;
+
+}
+#search{
+    background-color: rgba(60, 80, 83, 0.644);
+    border: none;
+}
+.main-slide{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 380px;
+    
+ 
+    border-radius: 25px;
+
+}
+.main-slide > img{
+    width: 100%;
+    height: 100%;
+    border-radius: 35px;
+}
+.side-card{
+    width: 100%;
+}
+.side-card > img{
+    width: 470px;
+    height: 380px;
+    border-radius: 35px;
+}
+.card{
+    position: relative;
+    border: none;
+    border-radius: 30px;
+    width: 350px;
+    background-color: rgb(17, 12, 59);
+}
+.card > img{
+    height: 250px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+.card .avatar{
+    position: absolute;
+    right: 20px;
+    top: 230px;
+}
+.card .avatar > img{
+    border: 2px solid rgb(255, 0, 191);
+    padding: 3px;
+}
+.list-group-item{
+    background: transparent;
+    color: white;
+}
+.list-group-item .uil{
+    padding: 8px;
+    border-radius: 16px;
+    font-size: 25px;
+    margin-right: 10px;
+    background-color: rgb(54, 54, 54);
+}
+.active-icon{
+    background-color: rgb(255, 81, 0) !important;
+
+}
